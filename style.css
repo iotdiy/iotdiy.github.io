@@ -51,7 +51,7 @@ body{
 	transition: ease-in-out all 300ms;
 }
 .soon {
-    position:absolute;
+    position:relative;
     width: 600px;
     height: 270px;
     left:0; 
