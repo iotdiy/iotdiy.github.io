@@ -43,7 +43,7 @@ table {
 }
 body{
 	font-size: 17px;
-	background: #2ecc71 url('images/bg.jpg') no-repeat center center fixed;
+	background: #2ecc71 url('images/bg.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Lato',"Open Sans", Arial;
 	transition: ease-in-out all 300ms;
@@ -86,6 +86,7 @@ input{
 }
 .soon form input[type="email"]{
 	height: 2.5em;
+	width: 20em;
 	color: #34495e;
 	border-radius: 3px;
 	border: none;
