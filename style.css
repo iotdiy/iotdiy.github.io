@@ -43,9 +43,12 @@ table {
 }
 body{
 	font-size: 17px;
-	background: #2ecc71 url('images/bg.png') no-repeat center center fixed;
+	background: 	url('images/bg.png') no-repeat center center fixed;
 	background-size: cover;
-	font-family: 'Lato',"Open Sans", Arial;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Lato',"Open Sans", Arial;
 	transition: ease-in-out all 300ms;
 }
 .soon {
