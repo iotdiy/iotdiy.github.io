@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 600px;
+    height: 270px;
 }
 ol, ul {
 	list-style: none;
@@ -49,7 +51,7 @@ body{
 	transition: ease-in-out all 300ms;
 }
 .soon {
-    position:relative;
+    position:absolute;
     width: 600px;
     height: 270px;
     left:0; 
