@@ -18,7 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+html{
+	height:100%
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -43,7 +45,7 @@ table {
 	border-spacing: 0;
 }
 body{
-	font-size: 20px;
+	font-size: 17px;
 	background: 	url('images/bg.png') no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Lato',"Open Sans", Arial;
@@ -53,11 +55,12 @@ body{
     position:absolute;
     width: 600px;
     height: 270px;
-    left:0; 
-    right:0;
-    top:0; 
-    bottom:0;
+    left:10; 
+    right:10;
+    top:10; 
+    bottom:10;
     margin-top:50%;
+    margin:auto;
     max-width:100%;
     max-height:100%;
 }
